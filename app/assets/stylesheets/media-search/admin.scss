@@ -1,0 +1,19 @@
+.search-field {
+  background: image-url("media-search/search.png") no-repeat 5px 3px, linear-gradient(rgba(black, 0.05), transparent 4px), white !important;
+  width: 100% !important;
+  padding: 4px 10px 4px 24px !important;
+  font-size: 95%;
+  border-radius: 12px !important;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.search-media-form {
+  margin: 10px;
+}
+
+.popup .search-field {
+  margin-bottom: 10px !important;
+}
