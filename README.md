@@ -9,7 +9,7 @@ Installation & Usage
 
 **1. Add `wheelhouse-media-search` to your Gemfile:**
 
-    gem "wheelhouse-media-search", github: "WheelhouseCMS/wheelhouse-media-searchs"
+    gem "wheelhouse-media-search", github: "WheelhouseCMS/wheelhouse-media-search"
 
 Then run `bundle install`.
 
