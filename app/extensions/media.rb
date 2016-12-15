@@ -1,14 +1,16 @@
-class Wheelhouse::Media::Search < Wheelhouse::Media::Folder::Root
-  def initialize(results)
-    @results = results
-  end
+unless defined?(Wheelhouse::Media::Search)
+  class Wheelhouse::Media::Search < Wheelhouse::Media::Folder::Root
+    def initialize(results)
+      @results = results
+    end
 
-  def children
-    @results
-  end
+    def children
+      @results
+    end
 
-  def root?
-    false
+    def root?
+      false
+    end
   end
 end
 
